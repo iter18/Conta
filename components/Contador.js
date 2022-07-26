@@ -3,7 +3,7 @@ const Contador = () => {
     //creación de funcion para aumentar y cambiar estado
     const aumentar = () =>{
         //siempre se coloca el estado y dentro del estado la variable
-        setContador(contador +1);
+        setContador(contador +2);
     } 
     const disminuir = () =>{
         setContador(contador - 1);
